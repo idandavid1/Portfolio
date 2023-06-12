@@ -22,9 +22,9 @@ module.exports = {
       screens: {
         xs: "450px",
       },
-      backgroundImage: {
-        "hero-pattern": "url('/src/assets/herobg.png')",
-      },
+      // backgroundImage: {
+      //   "hero-pattern": "url('./public/assets/herobg.png')",
+      // },
     },
   },
   plugins: [],

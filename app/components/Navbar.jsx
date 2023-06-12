@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import Link from 'next/link'
 import { styles } from '../styles'
 import { navLinks } from '../constants'
-import { logo, menu, close } from '../assets'
+// import { logo, menu, close } from '/assets'
 
 const Navbar = () => {
   const [active, setActive] = useState('')
@@ -23,7 +23,7 @@ const Navbar = () => {
           href='/'
           className='flex items-center gap-2'
           onClick={onClickLogo}>
-          <img src={logo.src} alt='logo' className='w-9 h-9 object-contain' />
+          <img src='assets/logo.svg' alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex'>Idan &nbsp;
             <span className='sm:block hidden'> | Full Stack Developer</span>
           </p>
@@ -45,7 +45,7 @@ const Navbar = () => {
         </ul>
         <div className='sm:hidden flex flex-1 justify-end items-center'>
           <img 
-          src={toggle ? close.src : menu.src}
+          src={toggle ? 'assets/close.svg' : 'assets/menu.svg'}
           alt='menu'
           className='w-[28px] h-[28px] object-contain cursor-pointer'  
           onClick={() => setToggle(!toggle)}/>
