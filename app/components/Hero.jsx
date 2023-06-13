@@ -17,11 +17,12 @@ const Hero = () => {
             <span className='text-[#915eff]'> Idan</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-          Full Stack Web Developer with experience<br className='sm:block hidden' /> 
-          in writing single page applications 
+            Full Stack Web Developer with experience<br className='sm:block hidden' /> 
+            in writing single page applications 
           </p>
         </div>
       </div>
+      <ComputersCanvas />
     </section>
   )
 }
