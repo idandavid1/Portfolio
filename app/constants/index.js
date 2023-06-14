@@ -7,12 +7,12 @@ import {
     css,
     reactjs,
     redux,
-    tailwind,
     nodejs,
     mongodb,
     git,
     figma,
-    docker,
+    sass,
+    angular,
     airbnb,
     myDay,
     threejs,
@@ -53,10 +53,10 @@ import {
       name: "CSS 3",
       icon: css,
     },
-    {
-      name: "JavaScript",
-      icon: javascript,
-    },
+    // {
+    //   name: "JavaScript",
+    //   icon: javascript,
+    // },
     {
       name: "TypeScript",
       icon: typescript,
@@ -68,10 +68,6 @@ import {
     {
       name: "Redux Toolkit",
       icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
     },
     {
       name: "Node JS",
@@ -94,9 +90,13 @@ import {
       icon: figma,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "sass",
+      icon: sass,
     },
+    {
+      name: "angular",
+      icon: angular,
+    }
   ]
   
   const projects = [
