@@ -44,6 +44,7 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
+        I'm Idan David, 23 years old from Mazkeret Batya, Israel.
         I'm a skilled Full Stack/Frontend Web Developer with experience in writing 
         single page applications using the latest web technologies such as
         React, Redux, Node.js, Express, MongoDB, TypeScript and JavaScript ES6.
