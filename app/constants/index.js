@@ -1,7 +1,6 @@
 import {
     backend,
     web,
-    javascript,
     typescript,
     html,
     css,
@@ -53,10 +52,6 @@ import {
       name: "CSS 3",
       icon: css,
     },
-    // {
-    //   name: "JavaScript",
-    //   icon: javascript,
-    // },
     {
       name: "TypeScript",
       icon: typescript,
@@ -124,6 +119,7 @@ import {
       ],
       image: airbnb,
       source_code_link: "https://github.com/oferGavrilov/AirBNB-Frontend-clone",
+      app_link: "https://airbnb-rktw.onrender.com/"
     },
     {
       name: "My-Day'",
@@ -153,6 +149,7 @@ import {
       ],
       image: myDay,
       source_code_link: "https://github.com/idandavid1/My-Day",
+      app_link: "https://monday-8oy3.onrender.com/"
     },
   ]
   
