@@ -25,7 +25,7 @@ const ProjectCard = ({ idx, name, description, tags, image, source_code_link, ap
             className='w-full h-full object-cover rounded-2xl'
           />
 
-          <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
+          <div className='absolute top-3 right-3 flex justify-end card-img_hover'>
             <div
               onClick={() => window.open(source_code_link, "_blank")}
               className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
@@ -37,7 +37,7 @@ const ProjectCard = ({ idx, name, description, tags, image, source_code_link, ap
               />
             </div>
           </div>
-          <div className='absolute inset-0 flex justify-end mr-[16.75rem] mt-3 card-img_hover'>
+          <div className='absolute top-3 left-3 flex justify-end card-img_hover'>
             <div
               onClick={() => window.open(app_link, "_blank")}
               className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
