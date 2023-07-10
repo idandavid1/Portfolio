@@ -60,30 +60,30 @@ import {
       name: "React JS",
       icon: reactjs,
     },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
+    // {
+    //   name: "Redux Toolkit",
+    //   icon: redux,
+    // },
+    // {
+    //   name: "Node JS",
+    //   icon: nodejs,
+    // },
     {
       name: "MongoDB",
       icon: mongodb,
     },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
-      name: "git",
-      icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
+    // {
+    //   name: "Three JS",
+    //   icon: threejs,
+    // },
+    // {
+    //   name: "git",
+    //   icon: git,
+    // },
+    // {
+    //   name: "figma",
+    //   icon: figma,
+    // },
     {
       name: "sass",
       icon: sass,
